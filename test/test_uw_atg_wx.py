@@ -14,7 +14,3 @@ class TestDispatcher(unittest.TestCase):
     def test_get_obs_from_uw_atg(self):
         response = get_obs_from_uw_atg()
         self.assertGreater(len(list(response)), 1)
-
-
-    def test_get_obs(self):
-        response = get_obs()
